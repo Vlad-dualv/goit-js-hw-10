@@ -1,0 +1,30 @@
+body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.value {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.label {
+    text-transform: uppercase;
+}
+

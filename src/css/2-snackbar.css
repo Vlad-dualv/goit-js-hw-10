@@ -1,0 +1,31 @@
+body {
+    margin-left: 156px;
+    margin-top: 36px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form {
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+}
+
+input[name="delay"] {
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+fieldset {
+    height: 64px;
+}
+
+.form fieldset {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
